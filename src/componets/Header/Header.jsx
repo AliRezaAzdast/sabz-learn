@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 
 export default function Header() {
   return (
-    <header class="header">
+    <header className="header">
       <Topbar />
       <Navbar />
     </header>
