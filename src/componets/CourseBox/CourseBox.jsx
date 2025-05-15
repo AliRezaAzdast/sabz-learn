@@ -26,27 +26,27 @@ export default function CourseBox({img, title , teacher, price, views}) {
             </div>
             <div className="course-box__rating">
               <img
-                src="images/svgs/star.svg"
+                src="/images/svgs/star.svg"
                 alt="rating"
                 className="course-box__star"
               />
               <img
-                src="images/svgs/star_fill.svg"
+                src="/images/svgs/star_fill.svg"
                 alt="rating"
                 className="course-box__star"
               />
               <img
-                src="images/svgs/star_fill.svg"
+                src="/images/svgs/star_fill.svg"
                 alt="rating"
                 className="course-box__star"
               />
               <img
-                src="images/svgs/star_fill.svg"
+                src="/images/svgs/star_fill.svg"
                 alt="rating"
                 className="course-box__star"
               />
               <img
-                src="images/svgs/star_fill.svg"
+                src="/images/svgs/star_fill.svg"
                 alt="rating"
                 className="course-box__star"
               />

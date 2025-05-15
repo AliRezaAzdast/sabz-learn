@@ -13,8 +13,8 @@ export default function AboutUs() {
           description={"از اونجایی که آکادمی آموزشی سبزلرن یک آکادمی خصوصی هست"}
         />
 
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             <AboutUsBox
               title={'دوره های اختصاصی'}
               description={'با پشتیبانی و کیفیت بالا ارائه میده !'}
