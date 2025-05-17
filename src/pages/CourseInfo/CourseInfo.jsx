@@ -330,8 +330,8 @@ export default function CourseInfo() {
                   </div>
                 </div>
                 {/* Finish Introduction */}
-                {/* Start Teacher Details */}
 
+                {/* Start Teacher Details */}
                 <div class="techer-details">
                   <div class="techer-details__header">
                     <div class="techer-details__header-right">
@@ -360,10 +360,11 @@ export default function CourseInfo() {
                     زمینه وب فعالیت داشته باشم.و..
                   </p>
                 </div>
-
                 {/* Finish Teacher Details */}
               </div>
             </div>
+
+
             <div class="col-4">
               <div class="courses-info">
                 <div class="course-info">
@@ -401,6 +402,66 @@ export default function CourseInfo() {
                     </div>
                   </div>
                 </div>
+                <div class="course-info">
+                <div class="course-info__header-short-url">
+                  <i class="fas fa-link course-info__short-url-icon"></i>
+                  <span class="course-info__short-url-text">
+                    لینک کوتاه
+                  </span>
+                </div>
+                <span class="course-info__short-url">
+                  https://sabzlearn.ir/?p=117472
+                </span>
+              </div>
+              <div class="course-info">
+                <span class="course-info__topic-title">
+                  سرفصل های دوره
+                </span>
+                <span class="course-info__topic-text">
+                  برای مشاهده و یا دانلود دوره روی کلمه
+                  <a href="#" style={{color: 'blue', fontWeight: 'bold'}}>
+                    لینک
+                  </a>
+                  کلیک کنید
+                </span>
+              </div>
+              <div class="course-info">
+                <span class="course-info__courses-title">دوره های مرتبط</span>
+                <ul class="course-info__courses-list">
+                  <li class="course-info__courses-list-item">
+                    <a href="#" class="course-info__courses-link">
+                      <img src="/images/courses/js_project.png" alt="Course Cover" class="course-info__courses-img" />
+                      <span class="course-info__courses-text">
+                        پروژه های تخصصی با جاوا اسکریپت
+                      </span>
+                    </a>
+                  </li>
+                  <li class="course-info__courses-list-item">
+                    <a href="#" class="course-info__courses-link">
+                      <img src="/images/courses/fareelancer.png" alt="Course Cover" class="course-info__courses-img" />
+                      <span class="course-info__courses-text">
+                        تعیین قیمت پروژه های فریلنسری
+                      </span>
+                    </a>
+                  </li>
+                  <li class="course-info__courses-list-item">
+                    <a href="#" class="course-info__courses-link">
+                      <img src="/images/courses/nodejs.png" alt="Course Cover" class="course-info__courses-img" />
+                      <span class="course-info__courses-text">
+                        دوره Api نویسی
+                      </span>
+                    </a>
+                  </li>
+                  <li class="course-info__courses-list-item">
+                    <a href="#" class="course-info__courses-link">
+                      <img src="/images/courses/jango.png" alt="Course Cover" class="course-info__courses-img" />
+                      <span class="course-info__courses-text">
+                        متخصص جنگو
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
               </div>
             </div>
           </div>
